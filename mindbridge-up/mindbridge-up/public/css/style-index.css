@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  display: grid;
+}
+
+
+body {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #062759;
+  padding: 3.7rem 1.25rem;
+  color: white;
+  align-items: flex-end;
+}
+
+.header-top {
+  background-color: #062759;
+  /* height: 9rem; */
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100vw
+}
+
+#logo {
+  width: 43.74rem;
+  align-items: center;
+  margin-left: 14rem;
+}
+
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.signup-text {
+  font-size: 14px;
+  margin-right: 15px;
+}
+
+.signup-text a {
+  color: #86B6F6;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.login-btn {
+  background-color: #5F2EAA;
+  color: white;
+  padding: 15px 25px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.3s;
+  margin-bottom: 3.6vh;
+  border: rgb(187, 187, 187) 1.5px solid;
+}
+
+.login-btn-nav {
+  display: flex;
+}
+
+.login-btn:hover {
+  background: #673da8;
+}
+
+
+main {
+  margin: 50px auto;
+  font-size: 24px;
+  color: #333;
+  max-width: 93.75rem;
+}
+
+#resumo {
+  margin-bottom: 12.5rem;
+}
+
+.topic-agroupment {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;;
+}
+
+.topics {
+  text-align: center;
+}
+
+#cadastro-container {
+  background-color: #f7f7f7;
+  margin: 0 auto;
+  width: 31.25rem;
+  padding: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.input-box {
+  align-items: center;
+  height: 35px;
+  width: 83%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.input-label {
+  font-size: 15px;
+  text-align: left;
+  margin-left: 2.5rem;
+  display: flex;
+  margin-bottom: 0.4rem;
+}
+
+.cadastro-text {
+  margin-bottom: 2.5rem;
+}
+
+#cadastro-botao {
+  margin-top: 2.5rem;
+  background-color: #7049aa;
+  color: white;
+  height: 3rem;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+#cadastro-botao:hover {
+  background-color: #5f2eaa;
+  transition: 0.5s;
+}
+
+.topics img {
+  width: 20vw;
+  margin-bottom: 1px;
+}
+
+.topics-conteudos {
+  padding-top: 6px;
+}
+
