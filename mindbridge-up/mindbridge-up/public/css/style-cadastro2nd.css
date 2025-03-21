@@ -142,7 +142,7 @@ body{
     cursor: pointer;
     font-weight: 600;
     transition: 0.5s;
-    margin-top: 4.5rem;
+    margin-top: 6rem;
 }
 
 .b_login:hover{
@@ -164,3 +164,13 @@ body{
 .register-link a:hover{
     text-decoration: underline;
 }
+
+.select-perfil {
+    border-radius: 50px;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    outline: none;
+    font-size: 14px;
+    padding: 10px 12px;
+    margin-top: 1rem;
+  }

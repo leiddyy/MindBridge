@@ -44,20 +44,15 @@
 
             <div class="input-box">
 
-                <label class="input-label" for="cpf">Usuario</label>
-                <select id="role" name="role">
-                    <option value="">Selecione uma opção</option>
-                    <option value="profissional">Profissional</option>
-                    <option value="membro">Membro</option>
-                  </select>
-
-            </div>
-
-
-            <div class="input-box">
-
                 <label class="input-label" for="password">Senha</label>
                 <input type="password" id="password" placeholder="Digite sua senha">
+
+                <label></label>
+                <select class="select-perfil" id="select-cadastro" required>
+                    <option value="" disabled selected>Selecione seu perfil</option>
+                    <option value="membro">Membro</option>
+                    <option value="profissional">Profissional</option>
+                </select>
                 
             </div>
 
